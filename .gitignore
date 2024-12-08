@@ -1,0 +1,11 @@
+## Folders
+dist/
+drizzle/
+meta/
+node_modules/
+
+## Extensions
+*.env*
+
+## Files
+TODO.md

@@ -1,0 +1,144 @@
+{
+    // "files": [],
+    // "extends":"",
+    "include": ["src/**/*"],
+    // "exclude": [],
+    // "references": [],
+    "compilerOptions": {
+        //# Type Checking
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "strictBindCallApply": true,
+        "strictBuiltinIteratorReturn": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "useUnknownInCatchVariables": true,
+
+        //# Modules
+        "allowArbitraryExtensions": true,
+        // "allowImportingTsExtensions": true,
+        // "allowUmdGlobalAccess": false,
+        // "baseUrl": "./src",
+        // "customConditions": [],
+        "module": "ESNext",
+        "moduleResolution": "node",
+        // "moduleSuffixes": [],
+        "noResolve": false,
+        "noUncheckedSideEffectImports": true,
+        // "paths": {},
+        "resolveJsonModule": true,
+        "resolvePackageJsonExports": false,
+        "resolvePackageJsonImports": false,
+        "rootDir": "./",
+        // "rootDirs": [],
+        // "typeRoots": [],
+        // "types": [],
+
+        //# Emit
+        "declaration": false,
+        // "declarationDir": "",
+        "declarationMap": false,
+        "downlevelIteration": false,
+        "emitBOM": false,
+        "emitDeclarationOnly": false,
+        "importHelpers": false,
+        "inlineSourceMap": false,
+        "inlineSources": false,
+        // "mapRoot": "",
+        "newLine": "lf",
+        "noEmit": false,
+        // "noEmitHelpers": false,
+        "noEmitOnError": true,
+        "outDir": "./dist",
+        // "outFile": "",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "sourceMap": false,
+        // "sourceRoot": "",
+        "stripInternal": true,
+
+        //# JavaScript Support
+        "allowJs": false,
+        "checkJs": false,
+        // "maxNodeModuleJsDepth": 0,
+
+        //# Editor Support
+        "disableSizeLimit": true,
+        "plugins": [],
+
+        //# Interop Constraints
+        "allowSyntheticDefaultImports": false,
+        "esModuleInterop": false,
+        "forceConsistentCasingInFileNames": true,
+        //? "isolatedDeclarations": false,
+        "isolatedModules": false,
+        "preserveSymlinks": true,
+        "verbatimModuleSyntax": true,
+
+        //# Backwards Compatibility
+        // "charset": "",
+        // "importsNotUsedAsValues":
+        "keyofStringsOnly": false,
+        "noImplicitUseStrict": false,
+        "noStrictGenericChecks": false,
+        // "preserveValueImports": false,
+        "suppressImplicitAnyIndexErrors": false,
+
+        //# Language and Environment
+        "emitDecoratorMetadata": false,
+        "experimentalDecorators": true,
+        //TODO "jsx": "preserve",
+        // "jsxFactory": "React.createElement",
+        // "jsxFragmentFactory": "React.Fragment",
+        // "jsxImportSource": "react",
+        "lib": ["Decorators", "ESNext"],
+        "moduleDetection": "force",
+        "noLib": false,
+        // "reactNamespace": "React",
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+
+        //# Compiler Diagnostics
+        "extendedDiagnostics": true,
+        "generateCpuProfile": "./meta/profile.cpuprofile",
+        "listEmittedFiles": false, // Activate for Debugging
+        "listFiles": false, // Activate for Debugging
+        "noCheck": false,
+        "traceResolution": false, // Activate for Debugging
+
+        //# Projects
+        "composite": false, //TODO Learn about this
+        "disableReferencedProjectLoad": false,
+        "disableSolutionSearching": false,
+        "disableSourceOfProjectReferenceRedirect": false,
+        "incremental": false,
+        "tsBuildInfoFile": "./meta/.tsbuildinfo",
+
+        //# Output Formatting
+        "noErrorTruncation": true,
+        // "preserveWatchOutput":
+        "pretty": true,
+
+        //# Completeness
+        "skipDefaultLibCheck": false,
+        "skipLibCheck": false,
+
+        //# Command Line
+
+        //# Watch Options
+        "assumeChangesOnlyAffectDirectDependencies": false
+    }
+}

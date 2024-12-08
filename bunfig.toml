@@ -1,0 +1,5 @@
+# preload = ["./preload/index.ts"]
+smol = false
+
+[install]
+optional = true

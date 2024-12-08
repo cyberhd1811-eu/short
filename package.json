@@ -1,0 +1,70 @@
+{
+    "name": "@cyberhd1811-eu/short",
+    "version": "0.1.0-alpha",
+    "private": true,
+    "description": "A simple URL-shortener.",
+    "keywords": [
+        "url",
+        "url-shortener",
+        "shortener",
+        "bun",
+        "elysiajs"
+    ],
+    "homepage": "//TODO HOMEPAGE",
+    "bugs": {
+        "email": "short.github@contact.cyberhd1811.eu",
+        "url": "https://github.com/cyberhd1811-eu/short/issues"
+    },
+    "license": "EUPL-1.2",
+    "author": {
+        "email": "short.github@contact.cyberhd1811.eu",
+        "name": "CyberHD1811",
+        "url": "https://github.com/CyberHD1811"
+    },
+    "files": [],
+    "type": "module",
+    "main": "src/index.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cyberhd1811-eu/short"
+    },
+    "scripts": {
+        "db-create": "bunx drizzle-kit push",
+        "dev": "bun run --watch src/index.ts"
+    },
+    "dependencies": {
+        "@elysiajs/swagger": "^1.1.6",
+        "@sinclair/typebox": "^0.34.11",
+        "@types/bun": "^1.1.14",
+        "@types/pg": "^8.11.10",
+        "drizzle-orm": "^0.37.0",
+        "drizzle-typebox": "^0.1.1",
+        "elysia": "^1.1.26",
+        "pg": "^8.13.1"
+    },
+    "devDependencies": {
+        "drizzle-kit": "^0.29.1"
+    },
+    "engines": {
+        "bun": ">=1.1.33"
+    },
+    "prettier": {
+        "arrowParens": "always",
+        "bracketSameLine": true,
+        "bracketSpacing": true,
+        "embeddedLanguageFormatting": "auto",
+        "endOfLine": "lf",
+        "htmlWhitespaceSensitivity": "css",
+        "jsxSingleQuote": true,
+        "printWidth": 90,
+        "proseWrap": "preserve",
+        "quoteProps": "as-needed",
+        "requirePragma": false,
+        "semi": true,
+        "singleAttributePerLine": true,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "es5",
+        "useTabs": false
+    }
+}
